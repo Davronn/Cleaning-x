@@ -15,7 +15,7 @@
     flex-direction: column;
     margin: 0px auto;
     .head_aside {
-      width: 50%;
+      width: 75%;
       display: flex;
       flex-direction: column;
       justify-content: start;
@@ -26,14 +26,52 @@
         letter-spacing: 0em;
         text-align: left;
         color: rgba(33, 31, 84, 1);
+        margin-bottom: 22px;
+        width: 518px;
       }
-      p {
+      .hp {
         font-size: 21px;
         font-weight: 400;
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
         color: rgba(110, 113, 145, 1);
+        margin-bottom: 34px;
+        width: 591px;
+      }
+      .btns {
+        display: flex;
+        height: 72px;
+        .btn1 {
+          padding: 26px 38px;
+          background: rgba(0, 117, 255, 1);
+          border-radius: 14px;
+          border: 1px solid rgba(0, 117, 255, 1);
+          color: white;
+          margin-right: 28px;
+        }
+        .call {
+          display: flex;
+          align-items: center;
+          .call-name {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 1.600000023841858px;
+            text-align: left;
+            color: rgba(110, 113, 145, 1);
+            margin-left: 16px;
+          }
+          .call-num {
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(33, 31, 84, 1);
+            margin-left: 16px;
+          }
+        }
       }
     }
   }

@@ -8,7 +8,7 @@ function About() {
         <div className="container">
           <div className="head_aside">
             <h1>Quality cleaning for your home</h1>
-            <p>
+            <p className='hp'>
               Condimentum mauris sit cursus amet id non neque pharetra nulla
               ornare sed facilisis senectus dapibus nibh ultrices eget suscipit
               aliquet et nulla magna lacus penatibus.
@@ -18,8 +18,8 @@ function About() {
               <div className="call">
                 <img src={call} alt="" />
                 <div>
-                  <p>CALL US NOW</p>
-                  <p>(414) 567 - 2109</p>
+                  <p className='call-name'>CALL US NOW</p>
+                  <p className='call-num'>(414) 567 - 2109</p>
                 </div>
               </div>
             </div>
