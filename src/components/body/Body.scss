@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: Roboto;
 }
+.About {
+  display: flex;
+  flex-direction: column;
+}
 
 .head {
   display: flex;
@@ -78,5 +82,63 @@
   .bg-img {
     position: absolute;
     right: 0;
+  }
+}
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 156px;
+  .aboutus_head {
+    text-align: center;
+    width: 663px;
+
+    h2 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 58px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: rgba(33, 31, 84, 1);
+      margin-bottom: 21px;
+    }
+    .aup {
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: rgba(110, 113, 145, 1);
+      margin-bottom: 64px;
+    }
+  }
+  .aboutus_cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .aboutus_cards-card {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      .aucp {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(33, 31, 84, 1);
+        margin-top: 39px;
+        margin-bottom: 16px;
+      }
+      .aucpl {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(110, 113, 145, 1);
+      }
+    }
   }
 }
